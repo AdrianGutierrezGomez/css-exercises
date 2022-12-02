@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -10,6 +11,25 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
+}
+.images{
+  display: flex;
+  justify-content: center;
+  gap:52px;
+}
+.barberry,.chili,.pepper,.saffron{
+/*display: flex;
+flex-direction: column;
+align-items: center;
+margin:0;
+padding:0;*/ /*Made this but turns out it wasn't necessary from looking at solution*/
+max-width: 200px;
+}
+.text{
+  display: flex;
+  align-self: center;
+  flex-wrap: wrap;
 }
 
 /* do not edit this footer */
